@@ -6,6 +6,11 @@
     --primary-color: #0f1b4c;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -99,7 +104,7 @@ a {
 
 .hero-wrap {
     background-color: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 90px);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -187,7 +192,7 @@ a {
 /* ========== Guides ========== */
 .guides {
     margin-top: 40px;
-    padding: 93px 0px 79pxD;
+    padding: 93px 0px 79px;
 }
 
 .guides .sub-title {
